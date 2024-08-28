@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    flex: 0.5;
+    display: flex;
+    background: rgb(0, 228, 228);
+    border-radius: 30px;
+}
+ul{
+    list-style: none;
+}
+ul,li,a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.boxes{
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.box{
+    background: rgb(0, 228, 228);
+}
